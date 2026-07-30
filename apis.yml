@@ -1,19 +1,48 @@
 aid: aiwyn
 name: Aiwyn
-description: 'Aiwyn is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Aiwyn is a practice-automation platform built for modern accounting and CPA
+  firms, unifying payments, practice management, client experience, and tax into
+  a single relationship-centered system. Aiwyn Payments automates invoicing,
+  card and ACH collection, and reconciliation; Aiwyn Practice covers time,
+  billing, project management and resource planning; Aiwyn Experience delivers a
+  unified client portal for engagement letters and secure document exchange; and
+  Aiwyn Tax adds AI-assisted tax preparation. The company serves 800+ firms and
+  raised $113M from KKR and Bessemer Venture Partners. This profile was surfaced
+  as a Bessemer portfolio company; Aiwyn publishes no public developer API,
+  OpenAPI, or SDK surface at this time, so enrichment is limited to identity,
+  its published llms.txt, and probed domain security.
 url: https://raw.githubusercontent.com/api-evangelist/aiwyn/refs/heads/main/apis.yml
 x-type: company
 x-source: bessemer-venture-partners-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Ai Ml
+- Accounting
+- Fintech
+- Payments
+- Practice Management
+- Tax
+- CPA Firms
+- SaaS
+- Client Experience
+image: https://www.aiwyn.ai/wp-content/uploads/2025/04/cropped-Aiwyn-Favicon-2-192x192.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.aiwyn.ai/
+- type: Support
+  url: https://www.clientsupport.aiwyn.ai/hc/en-us
+- type: TermsOfService
+  url: https://www.aiwyn.ai/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.aiwyn.ai/privacy-policy/
+- type: Blog
+  url: https://www.aiwyn.ai/resources/
+- type: ReleaseNotes
+  url: https://www.aiwyn.ai/release-notes/
+- type: Login
+  url: https://merchant.aiwyn.ai/login
+- type: LLMsTxt
+  url: llms/aiwyn-llms.txt
+- type: DomainSecurity
+  url: security/aiwyn-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
